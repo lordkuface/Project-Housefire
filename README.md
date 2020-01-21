@@ -6,3 +6,9 @@ The purpose of the website is to give an indication of the meta in Operation Vel
 ![Operator Selection](Screenshots/ProjectHousefire4.png)
 
 The search functionality is implemented, operator by operator. When you click the search tag you are taken to a different page with the drop down menu. You select an operator in this menu. When you do this, a query is sent to the back-end to a table containing all primary and secondary weapons as well as gadgets. The query then executes, extracting the weapon and gadgets associated by unique ID’s. These ID’s associate weapons and gadgets with their respective operators. The weapons and gadgets are then displayed to the user in the form of a drop down menu.
+
+![Gadget Selection](Screenshots/ProjectHousefire5.png)
+
+Successful submission will show the stats for the user's selection across the 3-month season.
+
+![Stats](Screenshots/ProjectHousefire6.png)
