@@ -77,7 +77,7 @@
             <select onchange="opLoadout(this.value)">
               <option value="null"></option>
               <?php 
-                $password = 'Boros1105';
+                $password = '';
                 $con = mysqli_connect('localhost','root',$password,'housefiredb');
                 if (!$con) {
                   die('Could not connect: ' . mysqli_error($con));
