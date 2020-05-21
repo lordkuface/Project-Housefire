@@ -67,7 +67,7 @@
       <div class="firstgrid col-md-10"> 
         <div class="col-md-12" id="disp_stats">
             <?php
-               $con = mysqli_connect('localhost','root','Boros1105','housefiredb');
+               $con = mysqli_connect('localhost','root','','housefiredb');
                if (!$con) {
                 die('Could not connect: ' . mysqli_error($con));
                }
